@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #080c22;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  cursor: crosshair;
+}
+.caption {
+  position: fixed;
+  left: 16px;
+  bottom: 14px;
+  font: 12px "SF Mono", Menlo, Consolas, monospace;
+  color: rgba(240, 225, 190, 0.55);
+  letter-spacing: 0.04em;
+  pointer-events: none;
+  user-select: none;
+}
+.caption b {
+  font-weight: normal;
+  color: rgba(255, 210, 120, 0.8);
+}
